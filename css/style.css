@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 39rem) {
+  .container {
+    /* text-align: center; */
+    margin: 0 auto;
+    min-height: 89rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    height: 2rem;
+    align-items: center;
+    font-weight: 750;
+    font-size: 1.2rem;
+  }
+
+  nav i {
+    margin: 0.2rem;
+  }
+
+  .first-img {
+    width: 80%;
+    height: 50%;
+    margin: 1rem 10%;
+    text-align: center;
+  }
+
+  .container .first-img {
+    text-align: center;
+  }
+
+  .secont-img {
+    margin: 7rem 10%;
+  }
+
+  .point {
+    text-align: center;
+  }
+
+  .point span {
+    background-color: #d6d6d6;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    margin: 1rem;
+    display: inline-block;
+  }
+
+  .point span:nth-child(1) {
+    background-color: #e24e59;
+  }
+
+  .first-title {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    margin: 2rem;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .first-description {
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    opacity: 0.7;
+    margin-bottom: 8rem;
+    text-align: center;
+  }
+
+  .next,
+  .skip {
+    display: inline-block;
+    padding: 1rem 2ram;
+    width: 80%;
+    margin: 2rem auto;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-weight: bold;
+  }
+  .next {
+    background-color: #e24e59;
+    color: white;
+  }
+
+  .skip {
+    background-color: #d6d6d6;
+    color: #e24e59;
+  }
+
+  /* /////sign up//////// */
+
+  .sign-up {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 2rem 2rem 2rem;
+  }
+
+  .sign-up p {
+    color: #e24e59;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 1rem auto;
+    height: 4rem;
+    box-shadow: 0 0 0.2rem gray;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .social-media {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .sign-form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .sign-label {
+    margin: 2rem;
+    font-size: 1.5rem;
+    opacity: 0.8;
+  }
+
+  .sign-input {
+    padding: 1.5rem 1rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem #e24e59;
+  }
+
+  .sign-description {
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .sign-description p {
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .sign-btn {
+    display: inline-block;
+    padding: 1rem 2ram;
+    width: 80%;
+    margin: 2rem auto;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-weight: bold;
+    background-color: #f0d0d2;
+    color: #e24e59;
+    margin-top: 25rem;
+  }
+
+  .login {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+
+  .login a {
+    display: inline-block;
+    font-weight: 550;
+    color: black;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+
+  .monica-title {
+    margin: 2rem;
+    font-size: 1.5rem;
+    opacity: 0.8;
+  }
+
+  .data-flex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .data {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem #e24e59;
+  }
+
+  .monica {
+    border: 2px solid #e24e59;
+  }
+
+  .monica-jins {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+  }
+
+  .monica-jins button {
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    background-color: white;
+    box-shadow: 0 0 0.2rem #e24e59;
+    width: 45%;
+  }
+
+  .btn-male {
+    color: #e24e59;
+  }
+
+  .monica-jins button:nth-child(2) {
+    background-color: #e24e59;
+    color: white;
+  }
+
+  .interest-title {
+    margin: 2rem;
+  }
+
+  .interest-text {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid #e24e59;
+    border-radius: 1.5rem;
+    margin: 0.8rem;
+    font-size: 1.5rem;
+  }
+
+  .basic {
+    background-color: #e24e59;
+    color: white;
+  }
+}
